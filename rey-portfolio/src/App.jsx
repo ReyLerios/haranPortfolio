@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './Component/Footer/Footer'
 import Arsenal from './Component/Main/Arsenal/Arsenal'
 import Profile from './Component/Main/Profile/Profile'
 import Works from './Component/Main/Works/Works'
@@ -36,7 +37,9 @@ function App() {
         </div>
        </main>
 
-       <footer></footer>
+       <footer>
+        <Footer />
+       </footer>
 
     </>
 

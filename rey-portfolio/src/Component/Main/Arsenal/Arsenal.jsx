@@ -35,6 +35,22 @@ const Arsenal = () => {
     fetch(slot8).then(response => response.json()).then(data => console.log(data))
     const [eightLang, seteightLang] = useState('Material UI')
 
+    const slot9 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg'
+    fetch(slot9).then(response => response.json()).then(data => console.log(data))
+    const [ninthLang, setninthLang] = useState('Express')
+
+    const slot10 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg'
+    fetch(slot10).then(response => response.json()).then(data => console.log(data))
+    const [tenthLang, settenthLang] = useState('Mongo DB')
+
+    const slot11 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg'
+    fetch(slot11).then(response => response.json()).then(data => console.log(data))
+    const [eleventhLang, seteleventhLang] = useState('Github')
+
+    const slot12 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg'
+    fetch(slot12).then(response => response.json()).then(data => console.log(data))
+    const [twelvethLang, settwelveLang] = useState('Dart')
+
   return (
     <>
       <div className='col-12 text-start'>
@@ -79,6 +95,26 @@ const Arsenal = () => {
        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>  
         <img className='rounded-circle p-1 border border-3' alt='slot 8 language' src={slot8} width={50} />
         <p className='text-body-secondary lang pt-1'>{eightLang}</p>
+      </div>
+
+      <div className='col-lg-3 col-6 col-md-6 col-12 mt-3'>  
+        <img className='rounded-circle p-1 border border-3' alt='slot 9 language' src={slot9} width={50} />
+        <p className='text-body-secondary lang pt-1'>{ninthLang}</p>
+      </div>
+
+       <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>  
+        <img className='rounded-circle p-1 border border-3' alt='slot 10 language' src={slot10} width={50} />
+        <p className='text-body-secondary lang pt-1'>{tenthLang}</p>
+      </div>
+
+       <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>  
+        <img className='rounded-circle p-1 border border-3' alt='slot 11 language' src={slot11} width={50} />
+        <p className='text-body-secondary lang pt-1'>{eleventhLang}</p>
+      </div>
+
+       <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-3'>  
+        <img className='rounded-circle p-1 border border-3' alt='slot 12 language' src={slot12} width={50} />
+        <p className='text-body-secondary lang pt-1'>{twelvethLang}</p>
       </div>
 
       

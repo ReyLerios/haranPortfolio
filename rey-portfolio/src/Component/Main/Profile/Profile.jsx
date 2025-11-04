@@ -15,11 +15,11 @@ const Profile = () => {
         }
     })
 
-     const imageAvatar = cld.image('default_avatar'); 
+     const imageAvatar = cld.image('avatar_qaa5rv'); 
      imageAvatar.resize(fill().width(190).height(190));
 
      const name = 'REY LERIOS'
-     const job = 'Software Developer'
+     const job = 'Web/Application Developer'
      const[location,setlocation] = useState('Metro Manila, Philippines')
 
   return (
