@@ -19,7 +19,7 @@ const Profile = () => {
      imageAvatar.resize(fill().width(190).height(190));
 
      const name = 'REY LERIOS'
-     const job = 'Web/Application Developer'
+     const job = 'Web/App Developer'
      const[location,setlocation] = useState('Metro Manila, Philippines')
 
   return (
