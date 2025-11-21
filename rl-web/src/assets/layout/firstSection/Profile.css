@@ -1,0 +1,103 @@
+
+.rl-gmail {
+    padding: 3px;
+    transition: .2s ease-out;
+}
+.rl-gmail:hover {
+    background: rgb(218, 218, 218);
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+.profile .col-md-6 h1 {
+    font-size: 1.5rem;
+}
+.profile .col-md-6 h6 {
+    font-size: .8rem;
+}
+
+.profile .col-md-6 p {
+    font-size: .7rem;
+    text-align: center;
+}
+.profile .col-md-6 i {
+    font-size: .8rem;
+}
+
+.avatar {
+    cursor: pointer;
+    transition: .5s ease;   
+}
+.avatar:hover {
+    transition: .5s ease;
+    filter: brightness(60%);
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px)
+{
+   .avatar {
+    height: 190px;
+    width: 190px;
+   } 
+
+   .profile .col-md-6 h1 {
+    font-size: 2rem;
+   }
+   .profile .col-md-6 h6 {
+    font-size: 1rem;
+   }
+   .profile .col-md-6 i {
+    font-size: .9rem;
+   }
+
+   .profile .col-md-6 p {
+    text-align: start;
+    font-size: .8rem;
+   }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px)
+{
+   .avatar {
+    height: 200px;
+    width: 200px;
+   } 
+
+   .profile .col-md-6 h1 {
+    font-size: 2.1rem;
+   }
+   .profile .col-md-6 h6 {
+    font-size: 1rem;
+   }
+   .profile .col-md-6 i {
+    font-size: 1rem;
+   }
+
+   .profile .col-md-6 p {
+    text-align: start;
+    font-size: .9rem;
+   }
+}
+
+@media only screen and (min-width: 1440px)
+{
+   .avatar {
+    height: 200px;
+    width: 200px;
+   } 
+
+   .profile .col-md-6 h1 {
+    font-size: 2.4rem;
+   }
+   .profile .col-md-6 h6 {
+    font-size: 1rem;
+   }
+   .profile .col-md-6 i {
+    font-size: 1.1rem;
+   }
+
+   .profile .col-md-6 p {
+    text-align: start;
+    font-size: .9rem;
+   }
+}

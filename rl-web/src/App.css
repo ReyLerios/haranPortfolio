@@ -1,0 +1,41 @@
+
+.rl-header-hue {
+    color: #272727;
+}
+
+.rl-sub-hue {
+    color: #4e4e4e;
+}
+
+.profile .col-md-6 h1 {
+    font-size: 2.8rem;
+}
+
+.rl-text {
+    color: #414141;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px)
+{
+    .rl-profile-app {
+        margin: 3rem auto;
+    }
+
+    .rl-arsenal-app {
+        margin: 3rem auto auto 2rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px)
+{
+    .rl-profile-app {
+        margin: 5rem auto;
+    }
+}
+
+@media only screen and (min-width: 1440px)
+{
+    .rl-profile-app {
+        margin: 5rem auto;
+    }
+}

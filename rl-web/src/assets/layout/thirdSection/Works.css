@@ -1,0 +1,14 @@
+.works .image-pro {
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+.works .image-pro:hover {
+    transition: .3s ease;
+    filter: brightness(80%);
+}
+.rl-works {
+    padding-top: 3px;
+    font-size: .7rem;
+    font-weight: 600;
+    color: #272626;
+}
