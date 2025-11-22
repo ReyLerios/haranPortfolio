@@ -5,6 +5,8 @@ import { Cloudinary } from '@cloudinary/url-gen/index'
 import { AdvancedImage } from '@cloudinary/react'
 import { fill } from '@cloudinary/url-gen/actions/resize'
 
+import statement2 from './statement2.txt?raw'
+
 const Works = () => {
 
       const cld = new Cloudinary({
@@ -54,6 +56,7 @@ const Works = () => {
       <div className='row stacks'>
         <div className='col-12 text-start'>
           <h3>Works</h3>
+          <p className='p-1'>{statement2}</p>
         </div>
       </div>
 

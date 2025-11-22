@@ -33,7 +33,6 @@ const Profile = () => {
         </div>
         <div className='col-md-6 profile-right-section'>
             <p className='pt-3 rl-text'>{statement}</p>
-            <p className='pt-3 rl-text'>{statement2}</p>
             <p className='pt-1 rl-text'>{closer}</p>
             <i className='bx bx-location text-primary'> {location}</i>
         </div>

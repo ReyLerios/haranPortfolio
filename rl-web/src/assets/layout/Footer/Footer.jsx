@@ -36,7 +36,7 @@ const Footer = () => {
       <div className='container-fluid mt-5 pt-5 pb-5 bg-black text-white'>
           <div className='row gx-1 bg-black'>
             <div className='col-lg-12 mb-2 mt-3 bg-black text-center'>
-              <p className='bg-black text-white'>Design and developed by Rey Lerios</p>
+              <p className='bg-black text-white footer-text-head'>Design and developed by Rey Lerios</p>
             </div>
 
             <ul className='list-unstyled bg-black d-flex text-center justify-content-center pt-3 mb-3'>
