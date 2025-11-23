@@ -57,6 +57,7 @@ const Works = () => {
 
         <div className='col-12 text-start'>
           <h6 className='rl-sub-header'>Works</h6>
+          <p className='rl-tertiary-text'>{statement2}</p>
         </div>
 
         <div className='col-lg-4 col-md-6'>
