@@ -1,37 +1,42 @@
+:root {
+    --rl-primary: #0A0908;
+    --rl-secondary: #6E6658;
+    --rl-tertiary:  #252525;
 
-.stacks h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
+    --rl-link: #2980B9;
+    --rl-tertiary-text: #8f8f8f;
+
+    --rl-tablet: 2rem;
+    --rl-tablet-s: 1.1rem;
+    --rl-tablet-text: .9rem;
+
+    --rl-mobile: 1.8rem;
+    --rl-mobile-s: 1rem;
+    --rl-mobile-text: .7rem;
 }
 
-.rl-arsenal-icon {
-    width: 50px;
-}
-.rl-arsenal-name {
-    font-size: .9rem;
-}
-
-.stacks img {
-    width: 48px;
-    padding: 3px;
-    transition: .3s;
-    cursor: pointer;
-}
-.stacks img:hover {
-    padding: 5px;
-    transition: .3s;
-}
-.stacks p {
-    font-size: .8rem;
+.rl-sub-header {
     font-weight: 600;
-    color: #919191;
+    color: var(--rl-primary);
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1023px)
-{}
 
-@media only screen and (min-width: 1024px) and (max-width: 1439px)
-{}
+.section-second .col-12 {
+    margin-top: 1.5rem;
+}
 
-@media only screen and (min-width: 1440px)
-{}
+.section-second .col-lg-3 {
+    margin-top: 2rem;
+}
+
+.section-second img {
+    width: 45px;
+}
+
+.rl-tertiary-text {
+    color: var(--rl-tertiary-text);
+    font-weight: 600;
+    font-size: .8em;
+    padding-top: 3px;
+}
+

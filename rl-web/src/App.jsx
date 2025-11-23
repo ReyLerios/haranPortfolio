@@ -23,7 +23,7 @@ function App() {
         </div>
 
         <div className='container rl-arsenal-app mt-5 mb-3 p-3'>
-          <Stacks />  
+          <Stacks />
         </div>
 
         <div className='container rl-works-app mt-2 pt-3 p-3'>

@@ -53,80 +53,79 @@ const Stacks = () => {
 
   return (
     <>
-      <div className='row stacks'>
-        <div className='col-12'>
-            <h3 className='rl-arsenal-icon'>Stacks</h3>
-        </div>
-      </div>
 
-      <div className='row stacks text-center justify-content-center'>
+     <div className='row section-second text-center justify-content-center'>
 
-        <div className='col-lg-3 col-6 col-md-6 col-12 mt-5'>
-          <img src={slot1} alt='programming language icon' />
-          <p className='rl-sub-hue'>{firstLang}</p>
+        <div className='col-12 text-start'>
+          <h6 className='rl-sub-header'>Stacks</h6>
         </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot2} alt='programming language icon' />
-          <p className='rl-sub-hue'>{secondLang}</p>
+        <div className='col-lg-3 col-6 col-12'>
+          <img src={slot1} alt='stacks.svg' />
+          <p className='rl-tertiary-text'>{firstLang}</p>
         </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot3} alt='programming language icon' />
-          <p className='rl-sub-hue'>{thirdLang}</p>
-        </div>
+         <div className='col-lg-3 col-6 col-sm-3'>
+          <img src={slot2} alt='stacks.svg' />
+          <p className='rl-tertiary-text'>{secondLang}</p>
+         </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot4} alt='programming language icon' />
-          <p className='rl-sub-hue'>{fourthLang}</p>
-        </div>
-      </div>
+          <div className='col-lg-3 col-6 col-sm-3'>
+            <img src={slot3} alt='stacks.svg' />
+            <p className='rl-tertiary-text'>{thirdLang}</p>
+          </div>
 
-      <div className='row stacks text-center justify-content-center'>
+           <div className='col-lg-3 col-6 col-sm-3'>
+            <img src={slot4} alt='stacks.svg' />
+            <p className='rl-tertiary-text'>{fourthLang}</p>
+           </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-12 mt-5'>
-          <img src={slot5} alt='programming language icon' />
-          <p className='rl-sub-hue'>{fifthLang}</p>
-        </div>
+           <div className='col-lg-3 col-6 col-12'>
+            <img src={slot5} alt='stacks.svg' />
+            <p className='rl-tertiary-text'>{fifthLang}</p>
+           </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot6} alt='programming language icon' />
-          <p className='rl-sub-hue'>{sixthLang}</p>
-        </div>
+            <div className='col-lg-3 col-6 col-sm-3'>
+              <img src={slot6} alt='stacks.svg' />
+              <p className='rl-tertiary-text'>{sixthLang}</p>
+            </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot7} alt='programming language icon' />
-          <p className='rl-sub-hue'>{seventhLang}</p>
-        </div>
+             <div className='col-lg-3 col-6 col-sm-3'>
+              <img src={slot7} alt='stacks.svg' />
+              <p className='rl-tertiary-text'>{seventhLang}</p>
+             </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot8} alt='programming language icon' />
-          <p className='rl-sub-hue'>{eightLang}</p>
-        </div>
-      </div>
+              <div className='col-lg-3 col-6 col-sm-3'>
+                <img src={slot8} alt='stacks.svg' />
+                <p className='rl-tertiary-text'>{eightLang}</p>
+              </div>
 
-      <div className='row stacks text-center justify-content-center'>
+              <div className='col-lg-3 col-6 col-12'>
+                <img src={slot9} alt='stacks.svg' />
+                <p className='rl-tertiary-text'>{ninthLang}</p>
+              </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-12 mt-5'>
-          <img src={slot9} alt='programming language icon' />
-          <p className='rl-sub-hue'>{ninthLang}</p>
-        </div>
+                <div className='col-lg-3 col-6 col-sm-3'>
+                  <img src={slot10} alt='stacks.svg' />
+                  <p className='rl-tertiary-text'>{tenthLang}</p>
+                </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot10} alt='programming language icon' />
-          <p className='rl-sub-hue'>{tenthLang}</p>
-        </div>
+                  <div className='col-lg-3 col-6 col-sm-3'>
+                    <img src={slot11} alt='stacks.svg' />
+                    <p className='rl-tertiary-text'>{eleventhLang}</p>
+                  </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot11} alt='programming language icon' />
-          <p className='rl-sub-hue'>{eleventhLang}</p>
-        </div>
+                    <div className='col-lg-3 col-6 col-sm-3'>
+                      <img src={slot12} alt='stacks.svg' />
+                      <p className='rl-tertiary-text'>{twelvethLang}</p>
+                    </div>
 
-        <div className='col-lg-3 col-6 col-md-6 col-sm-3 mt-5'>
-          <img src={slot12} alt='programming language icon' />
-          <p className='rl-sub-hue'>{twelvethLang}</p>
-        </div>
-      </div>
+              
+
+           
+
+     </div>
+
     </>
   )
 }

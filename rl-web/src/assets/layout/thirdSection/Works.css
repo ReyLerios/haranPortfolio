@@ -1,14 +1,36 @@
-.works .image-pro {
+:root {
+    --rl-primary: #0A0908;
+    --rl-secondary: #6E6658;
+    --rl-tertiary:  #252525;
+
+    --rl-link: #2980B9;
+    --rl-tertiary-text: #8f8f8f;
+
+    --rl-tablet: 2rem;
+    --rl-tablet-s: 1.1rem;
+    --rl-tablet-text: .9rem;
+
+    --rl-mobile: 1.8rem;
+    --rl-mobile-s: 1rem;
+    --rl-mobile-text: .7rem;
+}
+
+.section-third {
+    margin-top: 1.5rem;
+}
+
+.section-third .col-lg-4 {
+    margin-top: 2rem;
+}
+.section-third .col-md-6 p {
+    padding-top: 5px;
+}
+
+.section-third img {
     cursor: pointer;
-    transition: .5s ease-in;
+    transition: .5s ease;
 }
-.works .image-pro:hover {
-    transition: .3s ease;
+.section-third img:hover {
     filter: brightness(80%);
-}
-.rl-works {
-    padding-top: 3px;
-    font-size: .7rem;
-    font-weight: 600;
-    color: #272626;
+    transition: .5s ease;
 }

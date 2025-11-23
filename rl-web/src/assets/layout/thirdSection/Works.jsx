@@ -53,96 +53,57 @@ const Works = () => {
 
   return (
     <>
-      <div className='row stacks'>
+      <div className='row section-third text-center justify-content-center'>
+
         <div className='col-12 text-start'>
-          <h3>Works</h3>
-          <p className='p-1'>{statement2}</p>
-        </div>
-      </div>
-
-      <div className='row works'>
-        <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={firstWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotOne}</p>
+          <h6 className='rl-sub-header'>Works</h6>
         </div>
 
-        <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={secondWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotTwo}</p>
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={firstWork} />
+          <p className='rl-tertiary-text'>{slotOne}</p>
         </div>
 
-        
-        <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={thirdWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotThree}</p>
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={secondWork} />
+          <p className='rl-tertiary-text'>{slotTwo}</p>
         </div>
 
-          
-        <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={fourthWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotFour}</p>
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={thirdWork} />
+          <p className='rl-tertiary-text'>{slotThree}</p>
         </div>
 
-        <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={fifthWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotFive}</p>
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={fourthWork} />
+          <p className='rl-tertiary-text'>{slotFour}</p>
         </div>
 
-        <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={sixthWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotSix}</p>
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={fifthWork} />
+          <p className='rl-tertiary-text'>{slotFive}</p>
         </div>
 
-         <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={seventhWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotSeven}</p>
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={sixthWork} />
+          <p className='rl-tertiary-text'>{slotSix}</p>
         </div>
 
-         <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={eightWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotEight}</p>
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={seventhWork} />
+          <p className='rl-tertiary-text'>{slotSeven}</p>
         </div>
 
-          <div className='col-lg-4 col-md-6 mt-4 p-1 text-center'>
-          <AdvancedImage 
-             className='rounded border border-2 border-tertiary image-pro' 
-             cldImg={ninthWork} 
-             alt='work.png' 
-          />
-          <p className='rl-works'>{slotNine}</p>
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={eightWork} />
+          <p className='rl-tertiary-text'>{slotEight}</p>
         </div>
+
+        <div className='col-lg-4 col-md-6'>
+          <AdvancedImage className='rounded p-1 border image-project' cldImg={ninthWork} />
+          <p className='rl-tertiary-text'>{slotNine}</p>
+        </div>
+
       </div>
     </>
   )

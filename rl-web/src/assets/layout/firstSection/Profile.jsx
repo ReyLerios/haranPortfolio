@@ -17,26 +17,35 @@ const Profile = () => {
         }
     })
     const avatar = cld.image('avatar_qaa5rv')
-    avatar.resize(fill().height(130).width(130))
+    avatar.resize(fill().height(190).width(190))
 
     const [name, setname] = useState('REY LERIOS')
-    const [job, setjob] = useState('Web/App Developer')
+    const [job, setjob] = useState('Web Developer')
     const [location, setlocation] = useState('Metro Manila, Philippines')
 
   return (
     <>
-      <div className='row profile'>
-        <div className='col-md-6 text-center justify-content-center ms-auto profile-left-section'>
-            <AdvancedImage className='rounded-circle p-3 avatar' cldImg={avatar} />
-            <h1 className='fw-bold rl-header-hue'>{name}</h1>
-            <h6 className='rl-sub-hue fw-bold'>{job}</h6>
+
+      <div className='row section-first'>
+
+        <div className='col-md-6 text-center justify-content-center'>
+          <AdvancedImage className='rounded-circle first-section-avatar' cldImg={avatar} alt='avatar.png' />
+            <h1 className='pt-1'>{name}</h1>
+            <h5>{job}</h5>
         </div>
-        <div className='col-md-6 profile-right-section'>
-            <p className='pt-3 rl-text'>{statement}</p>
-            <p className='pt-1 rl-text'>{closer}</p>
-            <i className='bx bx-location text-primary'> {location}</i>
+
+        <div className='col-md-6'>
+          <p>{statement}</p>
+          <p>{closer}</p>
+            
+            <div className='first-section-location d-flex'>
+              <i className='bx bx-location p-1'></i>
+              <p>{location}</p>
+            </div>
         </div>
+
       </div>
+
     </>
   )
 }
