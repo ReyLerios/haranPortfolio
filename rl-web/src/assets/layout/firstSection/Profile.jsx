@@ -7,7 +7,6 @@ import { fill } from '@cloudinary/url-gen/actions/resize'
 
 import statement from './statement.txt?raw'
 import closer from './closer.txt?raw'
-import statement2 from './statement2.txt?raw'
 
 const Profile = () => {
 
@@ -22,6 +21,8 @@ const Profile = () => {
     const [name, setname] = useState('REY LERIOS')
     const [job, setjob] = useState('Web Developer')
     const [location, setlocation] = useState('Metro Manila, Philippines')
+
+    const[age, setage] = useState(null)
 
   return (
     <>
