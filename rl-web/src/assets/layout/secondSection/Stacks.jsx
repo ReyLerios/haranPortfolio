@@ -27,9 +27,9 @@ const Stacks = () => {
     fetch(slot6).then(response => response.json()).then(data => console.log(data))
     const [sixthLang, setsixthLang] = useState('Angular')
 
-    const slot7 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg'
+    const slot7 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg'
     fetch(slot7).then(response => response.json()).then(data => console.log(data))
-    const [seventhLang, setseventhLang] = useState('Bootstrap 5')
+    const [seventhLang, setseventhLang] = useState('Kubernetes')
 
     const slot8 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg'
     fetch(slot8).then(response => response.json()).then(data => console.log(data))
@@ -43,9 +43,9 @@ const Stacks = () => {
     fetch(slot10).then(response => response.json()).then(data => console.log(data))
     const [tenthLang, settenthLang] = useState('Mongo DB')
 
-    const slot11 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg'
+    const slot11 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fedora/fedora-original.svg'
     fetch(slot11).then(response => response.json()).then(data => console.log(data))
-    const [eleventhLang, seteleventhLang] = useState('Flutter')
+    const [eleventhLang, seteleventhLang] = useState('Fedora')
 
     const slot12 = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg'
     fetch(slot12).then(response => response.json()).then(data => console.log(data))
