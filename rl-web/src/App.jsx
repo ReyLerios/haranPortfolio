@@ -9,6 +9,9 @@ function App() {
 
   return (
     <>
+    <p className='p-2 mt-5 text-center'>This portfolio is under maintenance. Sorry for interuption.</p>
+    <p className='p-2 mt-5 text-center'>-Rey Lerios</p>
+{/*
       <header>
         <nav class="navbar navbar-expand-xxl fixed-top bg-transparent">
           <div className='container p-3'>
@@ -34,6 +37,7 @@ function App() {
       <footer>
         <Footer />
       </footer>
+      */}
     </>
   )
 }
